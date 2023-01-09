@@ -284,6 +284,26 @@ footer p{
 
 
 
+    .aboutus-img{
+      width:80%;
+    }
+
+.aboutus-text{
+  
+  font-family: 'Outfit', sans-serif;
+  line-height: 1.8;
+}
+
+
+
+.aboutul li{
+  line-height: 1.8;
+}
+
+
+
+
+
 
 /* moblie */
 
@@ -371,12 +391,25 @@ footer p{
     width: 290px;
     margin: auto;
   }
+
+  .cli{
+    width: 290px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+
   .step-img{
     margin-left: 20px;
 
     margin-top: 40px;
   }
-  
+  .aboutus-img{
+    width:100%;
+  }
+
+
 }
 
 #mav{
