@@ -5,15 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Lithan</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/Style.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="JS/bundle.js"></script>
 
     <link rel="stylesheet" href="CSS/all.css">
 
@@ -31,9 +34,24 @@
                 <div class="collapse navbar-collapse container-fluid-xs" id="navbarCollapse">
                     <div class="navbar-nav ms-auto bg-light-sm">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="Digitalmarketing.html" class="nav-item nav-link ">Services</a>
+                        <div class="nav-item dropdown" style="list-style: none;">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Services
+                            </a>
+                            <div class="dropdown-menu p-2 " aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="IT Services.html">IT Services</a>
+                                <a class="dropdown-item" href="Digitalmarketing.html">Digital Marketing</a>
+                                <a class="dropdown-item" href="WhatsappServices.html">Whatsapp Services</a>
+                                <a class="dropdown-item" href="SMSServices.html">SMS Services</a>
+                                <a class="dropdown-item" href="HostingServices.html">Hosting</a>                   
+                                <a class="dropdown-item" href="IOTServices.html">IOT Services</a>
+                            </div>
+                        </div>
                         <a href="aboutus.html" class="nav-item nav-link">About Us</a>
                         <a href="contactus.html" class="nav-item nav-link">Contact Us</a>
+                    
+                       
+                
                     </div>
                 </div>
             </div>
@@ -94,65 +112,65 @@
                     <h3 class="mb-3">Digital Marketing</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dicta excepturi sapiente fugit vol
                     </p>
-                    <a href="" style="color: #F26674;">Explore More</a>
+                    <a href="Digitalmarketing.html" style="color: #F26674;">Explore More</a>
                 </div>
 
 
                 <div class="col-lg-4 mt-4 cardi">
                     <div class="wedo-img">
-                        <img src="Images/web-design.svg" alt="">
+                        <img src="Images/itservices.svg" alt="">
                     </div>
-                    <h3 class="mb-3">Web Design
+                    <h3 class="mb-3">IT Services
                     </h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dicta excepturi sapiente fugit vol
                     </p>
-                    <a href="" style="color:#5628B4;">Explore More</a>
+                    <a href="IT Services.html" style="color:#004FAC;">Explore More</a>
 
                 </div>
 
                 <div class="col-lg-4 mt-4  cardi">
                     <div class="wedo-img">
-                        <img src="Images/graphic-designer.svg" alt="">
+                        <img src="Images/whatsapp.svg" alt="">
                     </div>
-                    <h3 class="mb-3">Graphic design
+                    <h3 class="mb-3">Whatsapp Services
                     </h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dicta excepturi sapiente fugit vol
                     </p>
-                    <a href="" style="color: #FFB34E;">Explore More</a>
+                    <a href="WhatsappServices.html" style="color: #00D264;">Explore More</a>
 
                 </div>
                 <div class="col-lg-4 mt-4 cardi is-1">
                     <div class="wedo-img">
-                        <img src="Images/data.svg" alt="">
+                        <img src="Images/SMS Services.svg" alt="">
                     </div>
-                    <h3 class="mb-3">Application Development
+                    <h3 class="mb-3">SMS Services
                     </h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dicta excepturi sapiente fugit vol
                     </p>
-                    <a href="" style="color: #64DCFC;">Explore More</a>
+                    <a href="SMSServices.html" style="color: #FFC743;">Explore More</a>
 
                 </div>
                 
                 
                 <div class="col-lg-4 mt-4 cardi is-1">
                     <div class="wedo-img">
-                        <img src="Images/software.svg" alt="">
+                        <img src="Images/Hosting Services.svg" alt="">
                     </div>
-                    <h3 class="mb-3">Management softwares
+                    <h3 class="mb-3">Hosting Services
                     </h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dicta excepturi sapiente fugit vol
                     </p>
-                    <a href="" style="color:#7DDEAB;">Explore More</a>
+                    <a href="HostingServices.html" style="color:#27BEF4;">Explore More</a>
 
                 </div>
                 <div class="col-lg-4 mt-4 cardi is-1">
                     <div class="wedo-img">
-                        <img src="Images/loudspeaker.svg" alt="">
+                        <img src="Images/IOT Services.svg" alt="">
                     </div>
-                    <h3 class="mb-3">Promotionals</h3>
+                    <h3 class="mb-3">IOT Services</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dicta excepturi sapiente fugit vol
                     </p> 
-                    <a href="" style="color: #474747;">Explore More</a>
+                    <a href="IOTServices.html" style="color: #110e0e;">Explore More</a>
 
                 </div>
 
@@ -342,108 +360,71 @@
 
 
 
-
-
-
-    <footer class="footer-02 mt-4">
-        <div class="container">
-            <div class="row justify-content-center">
-            
-            </div>
+    <footer>
+        <div class="container fot">
             <div class="row">
-                <div class="col-md-4 col-lg-5 ">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-8 mb-md-0 mb-4 mt-4 p-4">
-                            <h2 class="footer-heading"><a href="#" class="logo">LITHAN TECHNOLOGIES</a></h2>
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, vero nihil nemo, neque veritatis n
+<div class="col-lg-3 col-md-5 col-sm-6">
+<img src="Images/logo-white.png" class="" style="width: 240px;" alt="">
+<p class="fotp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolorum. Possimus animi place</p>
+</div>
 
-</p>                        </div>
-                    </div>
-                </div>
-                <div class="col-md-8 col-lg-7 mt-4 p-4">
-                    <div class="row">
-                        <div class="col-md-3 mb-md-0 mb-4 border-left">
-                            <h2 class="footer-heading">Services</h2>
-                            <ul class="list-unstyled">
-                  <li><a href="#" class="py-1 d-block">Digital Marketing</a></li>
-                  <li><a href="#" class="py-1 d-block">Web Design</a></li>
-                  <li><a href="#" class="py-1 d-block">Graphic Design</a></li>
-                  <li><a href="#" class="py-1 d-block">Promotionals</a></li>
-                </ul>
-                        </div>
-                        <div class="col-md-3 mb-md-0 mb-4 border-left">
-                            <h2 class="footer-heading">About</h2>
-                            <ul class="list-unstyled">
-                  <li><a href="#" class="py-1 d-block">Staff</a></li>
-                  <li><a href="#" class="py-1 d-block">Team</a></li>
-                  <li><a href="#" class="py-1 d-block">Careers</a></li>
-                  <li><a href="#" class="py-1 d-block">Blog</a></li>
-                </ul>
-                        </div>
-                        <div class="col-md-3 mb-md-0 mb-4 border-left">
-                            <h2 class="footer-heading">Resources</h2>
-                            <ul class="list-unstyled">
-                  <li><a href="#" class="py-1 d-block">Security</a></li>
-                  <li><a href="#" class="py-1 d-block">Global</a></li>
-                  <li><a href="#" class="py-1 d-block">Charts</a></li>
-                  <li><a href="#" class="py-1 d-block">Privacy</a></li>
-                </ul>
-                        </div>
-                        <div class="col-md-3 mb-md-0 mb-4 border-left">
-                            <h2 class="footer-heading">Social</h2>
-                            <ul class="list-unstyled">
-                  <li><a href="#" class="py-1 d-block">Facebook</a></li>
-                  <li><a href="#" class="py-1 d-block">Twitter</a></li>
-                  <li><a href="#" class="py-1 d-block">Instagram</a></li>
-                  <li><a href="#" class="py-1 d-block">Googleplus</a></li>
-                </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <hr style="color:white;" >
-            <div class="row mt-2">
-      <div class="col-md-6 col-lg-8">
+<div class="col-lg-3 col-md-5 col-sm-6">
+<h5 class="">Services</h5>
 
-        <p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-      </div>
-      <div class="col-md-6 col-lg-4 text-md-right mb-4">
-        <p class="mb-0 list-unstyled">
-            <a class="mr-md-3" href="#">Terms</a>
-            <a class="mr-md-3" href="#">Privacy</a>
-            <a class="mr-md-3" href="#">Compliances</a>
-        </p>
-    </div>
-    </div>
+    <li>
+        <a  href="IT Services.html">IT Services</a></li>
+      <li>  <a  href="Digitalmarketing.html">Digital Marketing</a> </li>
+       <li> <a  href="WhatsappServices.html">Whatsapp Services</a></li>
+       <li> <a  href="SMSServices.html">SMS Services</a></li>
+       <li> <a   href="HostingServices.html">Hosting</a>      </li>             
+       <li> <a  href="IOTServices.html">IOT Services</a></li>
+
+</div>
+
+<div class="col-lg-3 col-md-5 col-sm-6">
+<h5 class="">Company</h5>
+
+    <li>
+        <a href="index.html">Home</a>
+        </li>
+        <li> <a  href="aboutus.html">Our Vision</a></li>
+        <li> <a  href="contactus.html">Contact Us</a></li>
+      <li>  <a  href="terms.html">Terms</a></li>
+      <li>  <a  href="Privacy.html">Privacy Policy</a> </li>
+    
+
+</div>
+
+<div class="col-lg-3 col-md-5 col-sm-6">
+<h5 class="">Social</h5>
+
+<li><a href="#" class=" d-block">Facebook</a></li>
+<li><a href="#" class=" d-block">Twitter</a></li>
+<li><a href="#" class=" d-block">Instagram</a></li>
+<li><a href="#" class=" d-block">Googleplus</a></li>
+</div>
         </div>
+        </div>
+
+        <hr style="color:white;" >
+        <p class="copyright text-center">
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |    lithan Technologies
+            </p>
+
     </footer>
-
-
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
+         
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>  
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
-
-
-        <script>
-            $(window).scroll(function(){
-            $('nav').toggleClass('scrolled', $(this).scrollTop() > 500);
-        });
-        </script>
-        
-        
+    
+    <script src="JS/topnav.js"></script>
 </body>
 
 </html>
