@@ -74,7 +74,9 @@ body{
     width: 90%;
 }
 
-
+li{
+  list-style: none;
+}
 
 
  .but{
@@ -146,7 +148,7 @@ outline: none;
   }
   
   .Why-us{
-    padding: 96px 0;
+    padding: 66px 0;
   }
 
 .wedo-img img{
@@ -250,22 +252,40 @@ a{
 
 
 footer{
-  background-color: #212529;
+  background-color: #0d2438;
+  padding: 24px 48px;
+  
 }
 
-footer a{
+.fot{
+  margin-top: 20px;
+}
+
+footer h5{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+  footer h5{
+  color: rgba(255, 255, 255, 0.918);
+
+}
+
+footer p, footer a{
   color: rgba(255, 255, 255, 0.4);
+
 }
 
 footer a:hover{
-  color: white;
+  color: rgba(255, 255, 255, 0.301);
+
 }
 
 .footer-heading {
   color: white;
 } 
 footer p{
-  color: rgba(255, 255, 255, 0.4);
+  /* color: rgba(255, 255, 255, 0.4); */
 }
 .mr-md-3{
   margin-right: 8px;
@@ -302,6 +322,19 @@ footer p{
 
 
 
+
+
+
+#mav{
+  border-color: none;
+  border-color: transparent;
+  outline: none;
+}
+
+#mav:focus{
+  outline: none;
+  box-shadow: none;
+}
 
 
 
@@ -408,17 +441,19 @@ footer p{
   .aboutus-img{
     width:100%;
   }
+footer h5{
+  margin-bottom:16px;
+  margin-top: 24px;
+}
 
+footer{
+  padding: 12px 24px;
+}
 
 }
 
-#mav{
-  border-color: none;
-  border-color: transparent;
-  outline: none;
-}
 
-#mav:focus{
-  outline: none;
-  box-shadow: none;
+
+footer .fotp{
+  margin-top: 16px;
 }
